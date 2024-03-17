@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CCL Admin Portal</title>
+    <link rel="stylesheet" href="index.css" />
+    <!-- Linking external CSS file -->
+  </head>
+  <body>
+    <header>
+      <h1>CCL Admin Portal</h1>
+
+      <nav>
+        <a href="home.html">Home</a>
+        <!-- Link to home.html -->
+        <a href="clients.html">Clients</a>
+        <!-- Link to clients.html -->
+      </nav>
+    </header>
+
+    <main>
+      <h2>Pending Appointments</h2>
+      <section id="pend-appts"></section>
+      <!-- Placeholder for pending appointments -->
+
+      <h2>Upcoming Appointments</h2>
+      <section id="up-appts"></section>
+      <!-- Placeholder for upcoming appointments -->
+
+      <h2>Past Appointments</h2>
+      <section id="past-appts"></section>
+      <!-- Placeholder for past appointments -->
+    </main>
+
+    <script src="../node_modules/axios/dist/axios.min.js"></script>
+    <!-- Including Axios library -->
+    <script src="home.js"></script>
+    <!-- Including home.js script -->
+  </body>
+</html>
